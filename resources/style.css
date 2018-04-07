@@ -1,6 +1,9 @@
 body{
 
 }
+div{
+  border:1px black solid;
+}
 header{
   display: flex;
   position:fixed;
@@ -55,4 +58,25 @@ nav span{
 a{
   font-weight: bold;
   color:black;
+}
+
+.maincontainer{
+  display:flex;
+}
+/*first column*/
+.first{
+  display: flex;
+  width: 630px;
+}
+/*second column*/
+
+.second {
+  display:flex;
+  width: 300px;
+}
+/*third column*/
+
+.third {
+  display:flex;
+  width: 240px;
 }
