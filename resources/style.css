@@ -8,9 +8,9 @@ header{
   display: flex;
   position:fixed;
   width:100%;
+  background-color: white;
   border:1px solid black;
   z-index: 1;
-
 }
 a {
   color: black;
@@ -29,7 +29,7 @@ h2 {
   font-size: 14px;
   font-weight: bold;
   padding-right: 40px;
-  display: inline-block;
+  display: flex;
   padding: 20px 10px;
   width: 20%;
 }
@@ -38,11 +38,10 @@ h2 {
   align-items: center;
   padding:5px 10px;
   margin-right: 10px;
-}
-img {
   width: 70px;
   height: 60px;
 }
+
 nav{
   display: flex;
   align-items: center;
@@ -62,21 +61,67 @@ a{
 
 .maincontainer{
   display:flex;
+  margin-top: 80px;
 }
+
+.imgtext{
+  display: flex;
+  flex-direction:column;
+ font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+}
+.funny{
+  display: flex;
+  flex-direction:column;
+  background-image: url("img-story-main.png");
+
+}
+.cat{
+  display: flex;
+  flex-direction:column;
+  background-image: url("img-story-1.png");
+
+}
+.earth{
+  display: flex;
+  flex-direction:column;
+  background-image: url("img-story-2.png");
+}
+.research{
+  display: flex;
+  flex-direction:column;
+  background-image: url("img-story-3.png");
+
+
+}
+.story{
+  display: flex;
+  flex-direction:column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 /*first column*/
 .first{
   display: flex;
+  flex-direction:column;
   width: 630px;
 }
+
 /*second column*/
 
 .second {
   display:flex;
+  flex-direction:column;
   width: 300px;
 }
 /*third column*/
 
 .third {
   display:flex;
+  flex-direction:column;
   width: 240px;
 }
